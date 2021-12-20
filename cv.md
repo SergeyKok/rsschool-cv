@@ -19,6 +19,14 @@ After 7 years as an engineer, I would like to change my profession. My goal is t
 * Visual Studio Code
 * Adobe Photoshop
 
+## Code Example:
+
+```JavaScript
+function multiply(a, b){
+  return a * b
+}
+```
+
 ## Work experience:
 
 Nothing yet…
