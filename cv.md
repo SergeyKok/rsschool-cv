@@ -23,7 +23,7 @@ After 7 years as an engineer, I would like to change my profession. My goal is t
 
 Nothing yet…
 
-##Education
+## Education
 
 **_2010 - 2014_**
 Kalashnikov Izhevsk State Technical University
