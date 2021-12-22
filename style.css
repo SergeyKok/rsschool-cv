@@ -1,0 +1,32 @@
+body {
+    max-width: 1200px;
+    margin: auto;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.header {
+    display: flex;
+    padding-top: 30px;
+}
+
+.header, .contacts, .about, .skills, .code, .work, .education, .language {
+    border-bottom: 1px solid rgb(0, 242, 250);
+}
+
+h1 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 50px;
+
+    margin: auto;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
