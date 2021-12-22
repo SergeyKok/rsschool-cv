@@ -33,7 +33,7 @@ function multiply(a, b){
 
 Nothing yet…
 
-## Education
+## Education:
 
 **_2010 - 2014_**
 Kalashnikov Izhevsk State Technical University
