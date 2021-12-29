@@ -142,15 +142,15 @@ section {
 }
 
 .skill-html {
-  background-image: url("https://SergeyKok/assets/img/html.png");
+  background-image: url("https://raw.githubusercontent.com/SergeyKok/rsschool-cv/tree/rsschool-cv-html/assets/img/html.png");
 }
 
 .skill-css {
-  background-image: url("https://raw.githubusercontent.com/SergeyKok/rsschool-cv/gh-pages/assets/img/CSS.png");
+  background-image: url("https://raw.githubusercontent.com/SergeyKok/rsschool-cv/assets/img/CSS.png");
 }
 
 .skill-js {
-  background-image: url("https://rsschool-cv/tree/rsschool-cv-html/assets/img/js.png");
+  background-image: url("https://raw.githubusercontent.com/SergeyKok/rsschool-cv/rsschool-cv-html/assets/img/js.png");
 }
 
 .skill-github {
