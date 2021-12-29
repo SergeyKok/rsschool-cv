@@ -142,7 +142,7 @@ section {
 }
 
 .skill-html {
-  background-image: url("https://raw.githubusercontent.com/SergeyKok/rsschool-cv/tree/rsschool-cv-html/assets/img/html.png");
+  background-image: url(/assets/img/html.png);
 }
 
 .skill-css {
@@ -154,11 +154,11 @@ section {
 }
 
 .skill-github {
-  background-image: url(assets/img/github.png);
+  background-image: url(../assets/img/github.png);
 }
 
 .skill-photoshop {
-  background-image: url(/assets/img/photoshop.png);
+  background-image: url("../assets/img/photoshop.png");
 }
 
 .date-education {
