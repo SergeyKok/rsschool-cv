@@ -1,32 +1,197 @@
-body {
-    max-width: 1200px;
-    margin: auto;
-
-    font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
-    line-height: 1.6;
-    color: #333;
+html {
+  scroll-behavior: smooth;
 }
 
-.header {
-    display: flex;
-    padding-top: 30px;
-}
-
-.header, .contacts, .about, .skills, .code, .work, .education, .language {
-    border-bottom: 1px solid rgb(0, 242, 250);
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 200;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 h1 {
-    font-family: 'Kaushan Script', cursive;
-    font-size: 50px;
+  font-size: 50px;
+  font-family: 'Kaushan Script', cursive;
+  font-weight: 600;
+}
 
-    margin: auto;
+h2 {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  margin: 30px auto;
+  border: 2px solid #ddd;
+  box-shadow: 1px 1px 200px 50px rgba(0, 0, 0, .5);
+}
+
+.header {
+  background-color: #ddd;
+}
+
+.nav-list {
+  height: 70px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-link {
+  font-weight: 600;
+  color: black;
+  margin: 0 14px;
+  text-decoration: none;
+  position: relative;
+}
+
+.nav-link::before {
+  content: "";
+  position: absolute;
+  height: 2px;
+  bottom: 0;
+  width: 0%;
+  background-color: red;
+  transition: .5s;
+}
+
+.nav-link:hover::before {
+  width: 100%;
+}
+
+.nav-item a:hover {
+  color: red;
+}
+
+.profile {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+  border-bottom: 15px solid #ddd;
+}
+
+.profile-photo {
+  display: flex;
+  align-items: center;
+}
+
+.photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 2px 2px 5px black, 2px 2px 5px red;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.main-title::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 120px;
+  margin-left: -250px;
+  margin-top: 65px;
+  background-color: red;
+}
+
+section {
+  padding: 20px;
+  border-bottom: 15px solid #ddd;
+}
+
+.info {
+  padding: 20px;
+}
+
+.contacts-list a {
+  text-decoration: none;
+  color: black;
+}
+
+.contacts-list a:hover {
+  color: red;
+}
+
+.summary {
+  text-align: justify;
+}
+
+.skill-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.skill-item {
+  padding-left: 40px;
+  margin-bottom: 10px;
+  background-repeat: no-repeat;
+  background-size: 30px;
+}
+
+.skill-html {
+  background-image: url(/assets/img/html.png);
+}
+
+.skill-css {
+  background-image: url(/assets/img/CSS.png);
+}
+
+.skill-js {
+  background-image: url(/assets/img/js.png);
+}
+
+.skill-github {
+  background-image: url(/assets/img/github.png);
+}
+
+.skill-photoshop {
+  background-image: url(/assets/img/photoshop.png);
+}
+
+.date-education {
+  width: 140px;
+  text-decoration: underline;
+  vertical-align: top;
+}
+
+.language {
+  border-bottom: none;
 }
 
 .footer {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 50px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ddd;
+}
+
+.link-github {
+  text-decoration: none;
+  color: black;
+}
+
+.link-github:hover {
+  color: red;
+}
+
+.rsschool {
+  width: 100px;
+  height: 40px;
+  background-image: url(https://rs.school/images/rs_school_js.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
